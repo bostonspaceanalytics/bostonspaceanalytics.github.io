@@ -17,37 +17,28 @@
         <link href="http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
         <link href="http://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
 
-        <link rel="stylesheet" href="styles/vendor/e40cadc5.bootstrap.css">
-        <link rel="stylesheet" href="styles/aaab9bf8.main.css">
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="styles/df345ce6.main.css">
 </head>
     <body>
 
 
 <div class="navbar navbar-inverse navbar-fixed-top">
   <div class="container">
-    <a class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+    <!-- <a class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>
-    </a>
+    </a> -->
     <a class="navbar-brand" href="#">BSA</a>
     <div class="nav-collapse collapse">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">Home</a></li>
         <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Action</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
-            <li class="divider"></li>
-            <li class="nav-header">Nav header</li>
-            <li><a href="#">Separated link</a></li>
-            <li><a href="#">One more separated link</a></li>
-          </ul>
-        </li>
+        <!-- <li><a href="#contact">Contact</a></li> -->
       </ul>
     </div><!--/.nav-collapse -->
   </div>
@@ -61,34 +52,54 @@
       <p>Boston Space Analytics (BSA) is focused on characterizing the estimated 10,000 known, but uncharacterized, large near earth asteroids (NEAs). Various groups of amateur and professional astronomers have discovered a total of 11,460 NEAs (registered). However, only 10% are currently characterized.  No astronomical team has undertaken the task to systematically characterize all the discovered NEAs. BSA aims to fill this gap.
       </p>
 
-    <p><button id="fullscreenTest" class="btn btn-primary btn-large">Tell me more!</button>
-    </p><p><span id="status"></span></p>
+    <p><a href="#about" class="btn btn-primary btn-large">More <i class="fa fa-caret-down"></i></a>
+    </p>
   </div>
 
   <div class="body-content">
 
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="col col-lg-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-      </div>
-      <div class="col col-lg-4">
-        <h2>Heading</h2>
-        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-        <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-     </div>
-      <div class="col col-lg-4">
-        <h2>Heading</h2>
-        <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-        <p><a class="btn btn-default" href="#">View details &raquo;</a></p>
-      </div>
-    </div>
+    <section id="about">
 
-    <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">The Goal</h2>
+                    <p class="section-subheading text-muted">By Congressional mandate, NASA has been focused on discovering potentially hazardous asteroids. But very little effort and funding has been devoted to characterization studies. The 2020 Asteroid Redirect Mission (ARM) is aiming at bringing back an 8m NEA. Selecting the best NEA from the estimated 100 million NEAs of this size is critical. In addition to orbital information, it is necessary to consider other characterizations such as composition, size, density, mass, type, spin, rotation and shape.</p>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-adjust fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Characterization</h4>
+                    <p class="text-muted">Asteroid mining firms and governmental agencies, like NASA, need commercial “mining tool” companies to provide data analytics similar to seismic studies used for Earth mining. BSA is a for-profit startup that will focus only on providing NEA characteristics. BSA’s team has deep expertise in visual imaging analytics and astronomy. We plan to deliver NEA characteristics using autonomous processes.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-desktop fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Images</h4>
+                    <p class="text-muted">BSA will use leased time on several 1m and 2m telescopes in 5 locations distributed around the world. The global locations ensure that weather or technical issues do not impede data gathering. We will build a pipeline to autonomously select the NEAs. For each NEA, we will use optical and near-IR imaging, photometric light curves, optical color, and spectroscopy as appropriate. We aim to use these astronomy methods to systematically characterize all known observable, but as yet uninvestigated, NEAs.</p>
+                </div>
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fa fa-cog fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="service-heading">Analytics</h4>
+                    <p class="text-muted">Images will be uploaded in real-time to a cloud database. Quality assurance methods and noise reduction algorithms will be applied. Visual artificial intelligent coding embedded with proper machine learning methods to handle Big Data will extract patterns from the data. The visual analytic code will be similar to facial recognition code. The coding will deliver characteristics of the NEAs autonomously. The results will be monitored by machine learning code against academically agreed upon NEA characteristics.</p>
+                </div>
+            </div>
+        </div>
 
-    <footer>
+    </section>
+
+    <!-- <hr> -->
+
+    <footer class="text-muted">
       <p>&copy; Boston Space Analytics 2014</p>
     </footer>
   </div>
@@ -115,10 +126,10 @@
             g.src='//www.google-analytics.com/ga.js';
             s.parentNode.insertBefore(g,s)}(document,'script'));
         </script>
-
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
          -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 
-        <script src="scripts/488e3e7a.main.js"></script>
         <script src="scripts/6a284043.fastclick.js"></script>
 </body>
 </html>
